@@ -1,5 +1,5 @@
 #include "dataFile.h"
-#include "iostream"
+
 DataFile::DataFile(std::string& filename) {
     stream.open(filename + ".dat" , std::ios::out | std::ios::in | std::ios::binary | std::ios::app);
 }
